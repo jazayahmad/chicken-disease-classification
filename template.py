@@ -16,7 +16,7 @@ list_of_files = [
     f"src/{project_name}/pipeline/__init__.py",
     f"src/{project_name}/entitiy/__init__.py",
     f"src/{project_name}/constants/__init__.py",
-    "config/config.yaml",
+    "config/config.yml",
     "dvc.yml",
     "params.yml",
     "requirements.txt",
