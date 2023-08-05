@@ -140,3 +140,137 @@ x========x
 2023-08-05 19:51:21 | INFO | main: <module>: 9 - >>>>>>> Stage: Data Ingestion Stage completed <<<<<<<
 
 x========x
+2023-08-05 22:18:33 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-08-05 22:18:33 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-08-05 22:18:33 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-08-05 22:18:33 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_base_model
+2023-08-05 22:18:59 | WARNING | saving_utils: try_build_compiled_arguments: 359 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2023-08-06 00:23:46 | INFO | main: <module>: 7 - >>>>>>> Stage: Data Ingestion Stage started <<<<<<<
+2023-08-06 00:23:46 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-08-06 00:23:46 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-08-06 00:23:46 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-08-06 00:23:46 | INFO | common: create_directories: 48 - created directory at: artifacts/data_ingestion
+2023-08-06 00:23:56 | INFO | data_ingestion: download_file: 18 - artifacts/data_ingestion/data.zip downloded with the following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4C58:15EA:3BDC0A:47DCD2:64CEA1C7
+Accept-Ranges: bytes
+Date: Sat, 05 Aug 2023 19:23:54 GMT
+Via: 1.1 varnish
+X-Served-By: cache-fjr990020-FJR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1691263432.135449,VS0,VE2784
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: f3b76d20588cb3975479cc741ff7cd9c1375fcde
+Expires: Sat, 05 Aug 2023 19:28:54 GMT
+Source-Age: 2
+
+
+2023-08-06 00:23:56 | INFO | main: <module>: 10 - >>>>>>> Stage: Data Ingestion Stage completed <<<<<<<
+
+x========x
+2023-08-06 00:23:56 | INFO | main: <module>: 19 - >>>>>>> Stage: Prepare Base Model started <<<<<<<
+2023-08-06 00:23:56 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-08-06 00:23:56 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-08-06 00:23:56 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-08-06 00:23:56 | INFO | common: create_directories: 48 - created directory at: artifacts/data_ingestion
+2023-08-06 00:23:56 | INFO | data_ingestion: download_file: 20 - File alread exist of size: ~ 11345 KB
+2023-08-06 00:23:56 | INFO | main: <module>: 22 - >>>>>>> Stage: Prepare Base Model completed <<<<<<<
+
+x========x
+2023-08-06 00:24:47 | INFO | main: <module>: 7 - >>>>>>> Stage: Data Ingestion Stage started <<<<<<<
+2023-08-06 00:24:47 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-08-06 00:24:47 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-08-06 00:24:47 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-08-06 00:24:47 | INFO | common: create_directories: 48 - created directory at: artifacts/data_ingestion
+2023-08-06 00:24:52 | INFO | data_ingestion: download_file: 18 - artifacts/data_ingestion/data.zip downloded with the following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4C58:15EA:3BDC0A:47DCD2:64CEA1C7
+Accept-Ranges: bytes
+Date: Sat, 05 Aug 2023 19:24:52 GMT
+Via: 1.1 varnish
+X-Served-By: cache-fjr990024-FJR
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1691263493.649409,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: a70e98a4c5bb0ec038ee0468dedd0a4fcb3c8022
+Expires: Sat, 05 Aug 2023 19:29:52 GMT
+Source-Age: 60
+
+
+2023-08-06 00:24:53 | INFO | main: <module>: 10 - >>>>>>> Stage: Data Ingestion Stage completed <<<<<<<
+
+x========x
+2023-08-06 00:24:53 | INFO | main: <module>: 19 - >>>>>>> Stage: Prepare Base Model started <<<<<<<
+2023-08-06 00:24:53 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-08-06 00:24:53 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-08-06 00:24:53 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-08-06 00:24:53 | INFO | common: create_directories: 48 - created directory at: artifacts/data_ingestion
+2023-08-06 00:37:35 | INFO | main: <module>: 7 - >>>>>>> Stage: Data Ingestion Stage started <<<<<<<
+2023-08-06 00:37:35 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-08-06 00:37:35 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-08-06 00:37:35 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-08-06 00:37:35 | INFO | common: create_directories: 48 - created directory at: artifacts/data_ingestion
+2023-08-06 00:37:43 | INFO | data_ingestion: download_file: 18 - artifacts/data_ingestion/data.zip downloded with the following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4C58:15EA:3BDC0A:47DCD2:64CEA1C7
+Accept-Ranges: bytes
+Date: Sat, 05 Aug 2023 19:37:41 GMT
+Via: 1.1 varnish
+X-Served-By: cache-fjr990029-FJR
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1691264261.064094,VS0,VE375
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 746829116f4e8d8d28694ab4e2b8bbac98267703
+Expires: Sat, 05 Aug 2023 19:42:41 GMT
+Source-Age: 0
+
+
+2023-08-06 00:37:44 | INFO | main: <module>: 10 - >>>>>>> Stage: Data Ingestion Stage completed <<<<<<<
+
+x========x
+2023-08-06 00:37:44 | INFO | main: <module>: 19 - *********************
+2023-08-06 00:37:44 | INFO | main: <module>: 20 - >>>>>>> Stage: Prepare Base Model started <<<<<<<
+2023-08-06 00:37:44 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-08-06 00:37:44 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-08-06 00:37:44 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-08-06 00:37:44 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_base_model
+2023-08-06 00:37:44 | WARNING | saving_utils: try_build_compiled_arguments: 359 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2023-08-06 00:37:44 | INFO | main: <module>: 23 - >>>>>>> Stage: Prepare Base Model completed <<<<<<<
+
+x========x
