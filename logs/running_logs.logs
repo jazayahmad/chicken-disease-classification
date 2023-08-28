@@ -344,3 +344,201 @@ x========x
 2023-08-06 01:41:01 | INFO | common: create_directories: 48 - created directory at: artifacts
 2023-08-06 01:41:01 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/checkpoint_dir
 2023-08-06 01:41:01 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+2023-08-06 17:04:58 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-08-06 17:04:58 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-08-06 17:04:58 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-08-06 17:04:58 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/checkpoint_dir
+2023-08-06 17:04:58 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+2023-08-06 17:06:26 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-08-06 17:06:26 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-08-06 17:06:26 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-08-06 17:06:26 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/checkpoint_dir
+2023-08-06 17:06:26 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+2023-08-06 17:06:26 | INFO | common: create_directories: 48 - created directory at: artifacts/training
+2023-08-06 17:07:29 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-08-06 17:07:29 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-08-06 17:07:29 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-08-06 17:07:29 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/checkpoint_dir
+2023-08-06 17:07:29 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+2023-08-06 17:07:29 | INFO | common: create_directories: 48 - created directory at: artifacts/training
+2023-08-06 17:08:07 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-08-06 17:08:07 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-08-06 17:08:07 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-08-06 17:08:07 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/checkpoint_dir
+2023-08-06 17:08:07 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+2023-08-06 17:08:07 | INFO | common: create_directories: 48 - created directory at: artifacts/training
+2023-08-06 17:10:19 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-08-06 17:10:19 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-08-06 17:10:19 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-08-06 17:10:19 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/checkpoint_dir
+2023-08-06 17:10:19 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+2023-08-06 17:10:19 | INFO | common: create_directories: 48 - created directory at: artifacts/training
+2023-08-06 17:12:27 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-08-06 17:12:27 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-08-06 17:12:27 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-08-06 17:12:27 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/checkpoint_dir
+2023-08-06 17:12:27 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+2023-08-06 17:12:27 | INFO | common: create_directories: 48 - created directory at: artifacts/training
+2023-08-06 17:14:09 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-08-06 17:14:09 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-08-06 17:14:09 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-08-06 17:14:09 | INFO | common: create_directories: 48 - created directory at: artifacts/data_ingestion
+2023-08-06 17:14:17 | INFO | 3465662620: download_file: 9 - artifacts/data_ingestion/data.zip downloded with the following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 6E92:2FDF:1F25B:787B9:64CF8E96
+Accept-Ranges: bytes
+Date: Sun, 06 Aug 2023 12:14:15 GMT
+Via: 1.1 varnish
+X-Served-By: cache-fjr990029-FJR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1691324055.771186,VS0,VE1046
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: ca36fccd4a25ec49d63fe5e48b4629e7ee2692f3
+Expires: Sun, 06 Aug 2023 12:19:15 GMT
+Source-Age: 1
+
+
+2023-08-06 17:14:33 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-08-06 17:14:33 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-08-06 17:14:33 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-08-06 17:14:33 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_base_model
+2023-08-06 17:14:33 | WARNING | saving_utils: try_build_compiled_arguments: 359 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2023-08-06 17:14:49 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-08-06 17:14:49 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-08-06 17:14:49 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-08-06 17:14:49 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/checkpoint_dir
+2023-08-06 17:14:49 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+2023-08-06 17:14:59 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-08-06 17:14:59 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-08-06 17:14:59 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-08-06 17:14:59 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/checkpoint_dir
+2023-08-06 17:14:59 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+2023-08-06 17:14:59 | INFO | common: create_directories: 48 - created directory at: artifacts/training
+2023-08-06 17:17:56 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-08-06 17:17:56 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-08-06 17:17:56 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-08-06 17:17:56 | INFO | common: create_directories: 48 - created directory at: artifacts/data_ingestion
+2023-08-06 17:17:56 | INFO | 3465662620: download_file: 11 - File alread exist of size: ~ 11345 KB
+2023-08-06 17:18:08 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-08-06 17:18:08 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-08-06 17:18:08 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-08-06 17:18:08 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_base_model
+2023-08-06 17:18:34 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-08-06 17:18:34 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-08-06 17:18:34 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-08-06 17:18:34 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_base_model
+2023-08-06 17:18:35 | WARNING | saving_utils: try_build_compiled_arguments: 359 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2023-08-06 17:18:53 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-08-06 17:18:53 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-08-06 17:18:53 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-08-06 17:18:53 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/checkpoint_dir
+2023-08-06 17:18:53 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+2023-08-06 17:19:10 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-08-06 17:19:10 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-08-06 17:19:10 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-08-06 17:19:10 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/checkpoint_dir
+2023-08-06 17:19:10 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+2023-08-06 17:19:10 | INFO | common: create_directories: 48 - created directory at: artifacts/training
+2023-08-06 17:22:19 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-08-06 17:22:19 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-08-06 17:22:19 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-08-06 17:22:19 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/checkpoint_dir
+2023-08-06 17:22:19 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+2023-08-06 17:22:19 | INFO | common: create_directories: 48 - created directory at: artifacts/training
+2023-08-06 17:27:19 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-08-06 17:27:19 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-08-06 17:27:19 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-08-06 17:27:19 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/checkpoint_dir
+2023-08-06 17:27:19 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+2023-08-06 17:27:19 | INFO | common: create_directories: 48 - created directory at: artifacts/training
+2023-08-06 17:28:47 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-08-06 17:28:47 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-08-06 17:28:47 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-08-06 17:28:47 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/checkpoint_dir
+2023-08-06 17:28:47 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+2023-08-06 17:28:47 | INFO | common: create_directories: 48 - created directory at: artifacts/training
+2023-08-06 18:10:13 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-08-06 18:10:13 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-08-06 18:10:13 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-08-06 18:10:13 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/checkpoint_dir
+2023-08-06 18:10:13 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+2023-08-06 18:10:13 | INFO | common: create_directories: 48 - created directory at: artifacts/training
+2023-08-06 18:11:46 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-08-06 18:11:46 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-08-06 18:11:46 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-08-06 18:11:46 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/checkpoint_dir
+2023-08-06 18:11:46 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+2023-08-06 18:11:46 | INFO | common: create_directories: 48 - created directory at: artifacts/training
+2023-08-06 18:13:18 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-08-06 18:13:18 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-08-06 18:13:18 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-08-06 18:13:18 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/checkpoint_dir
+2023-08-06 18:13:18 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+2023-08-06 18:13:18 | INFO | common: create_directories: 48 - created directory at: artifacts/training
+2023-08-28 09:10:44 | INFO | main: <module>: 8 - >>>>>>> Stage: Data Ingestion Stage started <<<<<<<
+2023-08-28 09:10:44 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-08-28 09:10:44 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-08-28 09:10:44 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-08-28 09:10:44 | INFO | common: create_directories: 48 - created directory at: artifacts/data_ingestion
+2023-08-28 09:10:53 | INFO | data_ingestion: download_file: 18 - artifacts/data_ingestion/data.zip downloded with the following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 0FDA:9030:1BECB7:21ED6A:64EC1E54
+Accept-Ranges: bytes
+Date: Mon, 28 Aug 2023 04:11:03 GMT
+Via: 1.1 varnish
+X-Served-By: cache-fjr990028-FJR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1693195862.744815,VS0,VE2073
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 4c3a3fdb2757dad3a470922944407dc64c22b142
+Expires: Mon, 28 Aug 2023 04:16:03 GMT
+Source-Age: 2
+
+
+2023-08-28 09:10:53 | INFO | main: <module>: 11 - >>>>>>> Stage: Data Ingestion Stage completed <<<<<<<
+
+x========x
+2023-08-28 09:10:53 | INFO | main: <module>: 20 - *********************
+2023-08-28 09:10:53 | INFO | main: <module>: 21 - >>>>>>> Stage: Prepare Base Model started <<<<<<<
+2023-08-28 09:10:53 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-08-28 09:10:53 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-08-28 09:10:53 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-08-28 09:10:53 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_base_model
+2023-08-28 09:10:53 | WARNING | saving_utils: try_build_compiled_arguments: 359 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2023-08-28 09:10:53 | INFO | main: <module>: 24 - >>>>>>> Stage: Prepare Base Model completed <<<<<<<
+
+x========x
+2023-08-28 09:10:53 | INFO | main: <module>: 32 - >>>>>>> Stage: Training started <<<<<<<
+2023-08-28 09:10:53 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-08-28 09:10:53 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-08-28 09:10:53 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-08-28 09:10:53 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/checkpoint_dir
+2023-08-28 09:10:53 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+2023-08-28 09:10:53 | INFO | common: create_directories: 48 - created directory at: artifacts/training
+2023-08-28 09:11:28 | INFO | main: <module>: 35 - >>>>>>> Stage: Training completed <<<<<<<
+
+x========x
