@@ -4,7 +4,7 @@ import urllib.request as request
 import zipfile
 from cnnClasifier import logger
 from cnnClasifier.utils.common import get_size
-from src.cnnClasifier.entitiy.config_entity import DataIngestionConfig
+from cnnClasifier.entitiy.config_entity import DataIngestionConfig
 
 
 # Components

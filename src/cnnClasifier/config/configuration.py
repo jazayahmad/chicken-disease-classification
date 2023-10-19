@@ -1,6 +1,6 @@
-from src.cnnClasifier.constants import *
-from src.cnnClasifier.utils.common import read_yaml, create_directories
-from src.cnnClasifier.entitiy.config_entity import (DataIngestionConfig, PrepareBaseModelConfig, PrepareCallbacksConfig, TrainingConfig, EvaluationConfig)  # noqa: E501
+from cnnClasifier.constants import *  # noqa: F403
+from cnnClasifier.utils.common import read_yaml, create_directories
+from cnnClasifier.entitiy.config_entity import (DataIngestionConfig, PrepareBaseModelConfig, PrepareCallbacksConfig, TrainingConfig, EvaluationConfig)  # noqa: E501
 from pathlib import Path
 import os
 

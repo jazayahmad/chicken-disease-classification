@@ -615,3 +615,70 @@ x========x
 2023-08-28 10:33:37 | INFO | main: <module>: 48 - >>>>>>> Stage: Evaluation Stage completed <<<<<<<
 
 x========x
+2023-10-19 21:06:05 | INFO | stage_01_data_ingestion: <module>: 27 - >>>>>>> Stage: Data Ingestion Stage started <<<<<<<
+2023-10-19 21:06:05 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-10-19 21:06:05 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-10-19 21:06:05 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-10-19 21:06:05 | INFO | common: create_directories: 48 - created directory at: artifacts/data_ingestion
+2023-10-19 21:06:13 | INFO | stage_01_data_ingestion: <module>: 27 - >>>>>>> Stage: Data Ingestion Stage started <<<<<<<
+2023-10-19 21:06:13 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-10-19 21:06:13 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-10-19 21:06:13 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-10-19 21:06:13 | INFO | common: create_directories: 48 - created directory at: artifacts/data_ingestion
+2023-10-19 21:06:20 | INFO | data_ingestion: download_file: 18 - artifacts/data_ingestion/data.zip downloded with the following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: FAC0:87AB:2349BB:2B615C:65315422
+Accept-Ranges: bytes
+Date: Thu, 19 Oct 2023 16:07:05 GMT
+Via: 1.1 varnish
+X-Served-By: cache-fjr990020-FJR
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1697731626.587399,VS0,VE0
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 50ecc6d706dc5b229c7615038f96ac2f79e0f804
+Expires: Thu, 19 Oct 2023 16:12:05 GMT
+Source-Age: 6
+
+
+2023-10-19 21:06:20 | INFO | stage_01_data_ingestion: <module>: 30 - >>>>>>> Stage: Data Ingestion Stage completed <<<<<<<
+
+x========x
+2023-10-19 21:08:13 | INFO | stage_02_prepare_base_model: <module>: 27 - >>>>>>> Stage: Prepare Base Model started <<<<<<<
+2023-10-19 21:08:13 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-10-19 21:08:13 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-10-19 21:08:13 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-10-19 21:08:13 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_base_model
+2023-10-19 21:08:13 | WARNING | saving_utils: try_build_compiled_arguments: 359 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2023-10-19 21:08:13 | INFO | stage_02_prepare_base_model: <module>: 30 - >>>>>>> Stage: Prepare Base Model completed <<<<<<<
+
+x========x
+2023-10-19 21:08:53 | INFO | stage_03_training: <module>: 32 - >>>>>>> Stage: Training started <<<<<<<
+2023-10-19 21:08:53 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-10-19 21:08:53 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-10-19 21:08:53 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-10-19 21:08:53 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/checkpoint_dir
+2023-10-19 21:08:53 | INFO | common: create_directories: 48 - created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+2023-10-19 21:08:53 | INFO | common: create_directories: 48 - created directory at: artifacts/training
+2023-10-19 21:09:34 | INFO | stage_03_training: <module>: 35 - >>>>>>> Stage: Training completed <<<<<<<
+
+x========x
+2023-10-19 21:15:15 | INFO | stage_04_evaluation: <module>: 26 - >>>>>>> Stage: Evaluation Stage started <<<<<<<
+2023-10-19 21:15:15 | INFO | common: read_yaml: 30 - yaml file: config/config.yaml loaded successfully
+2023-10-19 21:15:15 | INFO | common: read_yaml: 30 - yaml file: params.yaml loaded successfully
+2023-10-19 21:15:15 | INFO | common: create_directories: 48 - created directory at: artifacts
+2023-10-19 21:15:28 | INFO | common: save_json: 62 - JSON file saved at: scores.json
+2023-10-19 21:15:28 | INFO | stage_04_evaluation: <module>: 29 - >>>>>>> Stage: Evaluation Stage completed <<<<<<<
+
+x========x

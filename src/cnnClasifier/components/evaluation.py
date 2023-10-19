@@ -1,6 +1,6 @@
 import tensorflow as tf
 from pathlib import Path
-from src.cnnClasifier.entitiy.config_entity import EvaluationConfig
+from cnnClasifier.entitiy.config_entity import EvaluationConfig
 from cnnClasifier.utils.common import save_json
 
 

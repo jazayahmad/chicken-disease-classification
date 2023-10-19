@@ -3,7 +3,7 @@ import urllib.request as request
 import zipfile
 import tensorflow as tf
 import time
-from src.cnnClasifier.entitiy.config_entity import PrepareCallbacksConfig  # noqa: E501
+from cnnClasifier.entitiy.config_entity import PrepareCallbacksConfig  # noqa: E501
 
 
 # Components
