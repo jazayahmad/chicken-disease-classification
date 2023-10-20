@@ -12,3 +12,6 @@
 7. Update the pipeline 
 8. Update the main.py
 9. Update the dvc.yaml
+
+## 3. Create ECR repository to store/save docker image:
+    - Save the URI: 588283799131.dkr.ecr.us-east-1.amazonaws.com/chichken-mlops
